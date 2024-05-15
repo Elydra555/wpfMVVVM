@@ -27,7 +27,7 @@
             <RadioButton Content="Kilépés"></RadioButton>
         </StackPanel>
         
-        <ContentControl Grid.Row="1" Grid.Column="1"></ContentControl>
+        <ContentControl Grid.Row="1" Grid.Column="1" Content="{Binding CurrentView}"></ContentControl>
     
     </Grid>
 </Window>
